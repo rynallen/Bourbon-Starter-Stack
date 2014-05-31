@@ -1,0 +1,44 @@
+.header {
+  margin: 4em 0;
+  border-bottom: 2px solid $bright-blue;
+}
+
+.site-title {
+
+    h1 {
+    text-transform: uppercase;
+    font-family: Courier;
+    font-style: italic;
+    font-size: 30px;
+    color: $bright-blue;
+    line-height: 1em;
+  }
+  span {
+    display: block;
+    margin-top: -0.3em;
+    font-size: 14px;
+    color: lighten(black, 20%);
+  }
+}
+
+.posts {
+  ul, ol {
+    margin: 0;
+
+    li {
+      list-style-type: disc;
+      color: lightgrey;
+      line-height: 2.2em;
+
+      a {
+        color: lighten(black, 20%);
+        //text-decoration: underline;
+        border-bottom: 1px solid $bright-blue;
+
+        &:hover {
+          background-color: lighten($bright-blue, 40%);
+        }
+      }
+    }
+  }
+}

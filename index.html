@@ -6,57 +6,35 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Source+Code+Pro:200, 200i, 300, 300i, 400, 400i, 600, 600i, 700, 700i, 900, 900i/">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
         <link rel="stylesheet" href="css/style.css"> 
     </head>
     <body>
-    <header class="navigation">
-  <div class="menu-wrapper">
-    <a href="javascript:void(0)" class="logo">
-      <img src="https://raw.github.com/Magnus-G/Random/master/placeholder_logo_1.png" alt="">
-    </a>
-    <p class="navigation-menu-button" id="js-mobile-menu">MENU</p>
-    <div class="nav">
-      <ul id="navigation-menu">
-        <li><a href="javascript:void(0)">Products</a></li>
-        <li><a href="javascript:void(0)">About Us</a></li>
-        <li><a href="javascript:void(0)">Contact</a></li>
-        <li class="navigation-search-bar">
-          <div class="search-bar">
-            <div class="search-and-submit">
-              <input type="search" placeholder="Enter Search" />
-              <button type="submit">
-                <img src="https://raw.githubusercontent.com/Magnus-G/Random/master/search-icon.png" alt="">
-              </button>
-            </div>
-          </div>
-        </li>
-        <li class="sign-up"><a href="javascript:void(0)">Sign Up</a></li>
-      </ul>
-    </div>
-  </div>
-  </header>
-
-
+      <section class="header content">
+        <div class="site-title">
+        <h1>Wildwest Lambdas</h1>
+        <span class="site-description">thoughts on computers &amp technology from central texas</span>  
+        </div>
+      </section>
+      <section class="posts content">
+        <ul>
+          <li><a href="/post.html">Startup Therapy</a></li>
+          <li><a href="">Why I'm giving my time away for $1</a></li>
+          <li><a href="">On Focus. And Free Throws.</a></li>
+          <li><a href="">“Accidentally Freelance”</a></li>
+          <li><a href="">Give them an inch and they take $773,074,040</a></li>
+          <li><a href="">Guys, Enough Twitter Bootstrap</a></li>
+          <li><a href="">The Productivity Catalyst</a></li>
+          <li><a href="">Minimum Viable Workstation</a></li>
+          <li><a href="">The Technology Problem</a></li>
+          <li><a href="">The Plateau of Unhappiness</a></li>
+        </ul>
+      </section>
 
 
 
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.0/jquery.min.js
 "></script>
-<script>
-  $(function() {
-    var menu = $('#navigation-menu');
-    var menuToggle = $('#js-mobile-menu');
-
-    $(menuToggle).on('click', function(e) {
-      e.preventDefault();
-      menu.slideToggle(function(){
-        if(menu.is(':hidden')) {
-          menu.removeAttr('style');
-        }
-      });
-    });
-  });
-</script>
     </body>
 </html>
